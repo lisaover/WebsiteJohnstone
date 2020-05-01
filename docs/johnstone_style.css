@@ -1,0 +1,184 @@
+/* CSS Document */
+
+body {
+	margin: 0 0 0 0;
+	max-width: 100%;
+	overflow-x: hidden;
+	font-family: Papyrus, Jester, Georgia, serif;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.book {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+}
+
+.quote {
+	font-style: italic;
+	margin: 0;
+	padding: 0 0 0 30px;
+	font-size: 90%;
+	}
+
+.clearfloat {
+	clear: both;
+	}
+	
+#mast-img {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+	
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 160px;
+}
+
+nav ul {
+	list-style: none;
+	margin-left: -1em;
+	margin-top: 130px;
+}
+
+nav ul li a {
+	float: left;
+	min-width: 3.5em;
+	height: 3em;
+	text-align: center;
+	padding: .5em .5em 0 .5em;
+	border-radius: 10px;
+	text-decoration: none;
+}
+	
+header {
+	position: fixed;
+	top: 160px;
+	left: 0;
+	width: 100%;
+	height: 35px;
+}
+
+header h1 {
+	text-align: left;
+	margin-left: 15px;
+	margin-top: -140px;
+	font-size: 300%;
+}
+
+header img {
+	float: left;
+	position: relative;
+	left: 1em;
+}
+
+section .content {
+	margin-top: 190px;
+	margin-right: 25px;
+	width:80%;
+	min-height: 300px;
+	padding: 10px 30px 20px 30px;
+	
+}
+
+.nav-container {
+	display: block;
+	position: fixed;
+	top: 190px;
+	left: 15px;
+	width: 110px;
+	margin: 0 0 1em 0;
+}
+
+.nav-container ul {
+	display: block;
+	margin-left: -2em;
+	list-style: none;
+}
+.nav-container ul li {
+	padding-bottom: 5px;
+}
+
+.nav-container ul li a {
+	text-decoration: none;
+}
+
+.nav-container ul li a:hover {
+	text-decoration: none;
+}
+
+.subcontent {
+	float: left;
+	width: 80%;
+	min-width: 500px;
+	min-height: 300px;
+	margin-left: 175px;
+	padding: 0 1.5em 1.5em 1.5em;
+	border-radius: 10px;
+	font-family: Calibri, serif;
+	text-align: justify;
+}
+
+.subcontent p img {
+	float: left;
+}
+
+.subcontent h3 {
+	text-align: center;
+}
+
+.content img {
+	float: left;
+	margin: 10px 15px 10px 0;
+	border-radius: 10px;
+	z-index: 2;
+}
+
+footer {
+	width:70%;
+	margin-left: 230px;
+	text-align: center;
+	font-size: 80%;
+	padding: 10px 0 0 0;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: none;
+}
+

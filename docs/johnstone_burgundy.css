@@ -1,0 +1,76 @@
+/* CSS Document */
+
+body {
+	background: rgb(121, 54, 56);
+}
+	
+header {
+	background: rgb(121, 54, 56);
+}
+
+header h1 {
+	color: rgb(247, 237, 238);
+}
+
+#mast_img img {
+	border-right: 3px solid rgb(15, 6, 7);
+	border-left: 3px solid rgb(15, 6, 7);
+	border-top: none;
+	border-bottom: none;
+   box-shadow: 2px 0 3px rgb(50, 50, 50);
+}
+
+nav {
+	background: #030200;
+	background: rgb(47, 54, 64);
+	background: url(images/background.png) repeat-x;
+}
+
+nav li a {
+	color: rgb(183, 183, 183);
+	background: rgb(15, 6, 7);
+}
+
+nav li a:hover {
+	background: #888888;
+	color: rgb(15, 6, 7);
+}
+
+.content img {
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.nav-container ul li a {
+	color: rgb(247, 237, 238);
+}
+
+.nav-container ul li a:hover {
+	color: rgb(15, 6, 7);
+}
+
+.nav-container img {
+	box-shadow: 2px 2px 3px rgb(15, 6, 7);
+}
+
+.subcontent {
+	background: rgb(247, 237, 238);
+   border: 3px solid rgb(15, 6, 7);
+   box-shadow: 2px 2px 3px rgb(50, 50, 50);
+}
+
+.subcontent img {
+    box-shadow: 2px 2px 3px rgb(85, 56, 0);
+}
+
+footer {
+	color: rgb(247, 237, 238);
+}
+
+footer a {
+	color: rgb(198, 129, 131);
+}
+
+footer a:hover {
+	color: rgb(191, 191, 191);
+}
+

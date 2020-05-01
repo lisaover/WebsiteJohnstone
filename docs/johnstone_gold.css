@@ -1,0 +1,85 @@
+/* CSS Document */
+
+body {
+	background: rgb(170, 132, 57);
+}
+	
+header {
+	background: rgb(170, 132, 57);
+}
+
+header h1 {
+	color: rgb(249, 245, 235);
+}
+
+#mast_img img {
+	border-right: 3px solid rgb(85, 56, 0);
+	border-left: 3px solid rgb(85, 56, 0);
+	border-top: none;
+	border-bottom: none;
+   box-shadow: 2px 0 3px rgb(85, 56, 0);
+}
+
+nav {
+	background: #030200;
+	background: rgb(47, 54, 64);
+	background: url(images/background.png) repeat-x;
+}
+
+nav li a {
+	color: rgb(128, 91, 21);
+	background: rgb(212, 176, 106);
+}
+
+nav li a:hover {
+	background: rgb(255, 226, 170);
+	color: rgb(85, 56, 0);
+}
+
+.content img {
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.nav-container ul li a {
+	color: rgb(249, 245, 235);
+}
+
+.nav-container ul li a:hover {
+	color: rgb(85, 56, 0);
+}
+
+.nav-container img {
+	box-shadow: 2px 2px 3px rgb(85, 56, 0);
+}
+
+.subcontent {
+	background: rgb(249, 245, 235);
+   /*border: 3px solid rgb(85, 56, 0);*/
+   border: 3px solid rgb(39,43,52);
+   box-shadow: 2px 2px 3px rgb(85, 56, 0);
+}
+
+.subcontent img {
+    box-shadow: 2px 2px 3px rgb(85, 56, 0);
+}
+
+.subcontent a {
+	color: rgb(170, 132, 57);
+}
+
+.subcontent a:hover {
+	color: #999999;
+	}
+
+footer {
+	color: rgb(249, 245, 235);
+}
+
+footer a {
+	color: rgb(255, 226, 170);
+}
+
+footer a:hover {
+	color: rgb(128, 91, 21);
+	}
+

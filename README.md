@@ -1,2 +1,2 @@
-# WebsiteJohnstone
+# BarbaraJohnstone
 Website for Barbara Johnstone
